@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Prayug.Module.DependencyInjection
+build_property.ProjectDir = C:\Backend\Prayug\Prayug.Module.DependencyInjection\

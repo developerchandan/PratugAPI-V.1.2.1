@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "def28f58-eba2-4352-89db-78d3dba4c06f": {
+      "ProjectGuid": "def28f58-eba2-4352-89db-78d3dba4c06f",
+      "DisplayName": "Prayug.Module.Core",
+      "ColorIndex": 0
+    },
+    "390ce706-fc9e-44e8-b3bb-6e852e678ae9": {
+      "ProjectGuid": "390ce706-fc9e-44e8-b3bb-6e852e678ae9",
+      "DisplayName": "Prayug.Portal",
+      "ColorIndex": 1
+    },
+    "aa05a9f8-c8e2-49b5-8fe7-e47bbaeea7b2": {
+      "ProjectGuid": "aa05a9f8-c8e2-49b5-8fe7-e47bbaeea7b2",
+      "DisplayName": "Prayug.Infrastructure",
+      "ColorIndex": 2
+    },
+    "5df878e2-1bd5-455b-b713-27c34c5004a1": {
+      "ProjectGuid": "5df878e2-1bd5-455b-b713-27c34c5004a1",
+      "DisplayName": "Prayug.Module.DataBaseHelper",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

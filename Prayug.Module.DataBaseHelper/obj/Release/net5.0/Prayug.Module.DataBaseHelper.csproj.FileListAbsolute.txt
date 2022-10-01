@@ -1,0 +1,12 @@
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\bin\Release\net5.0\Prayug.Module.DataBaseHelper.deps.json
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\bin\Release\net5.0\Prayug.Module.DataBaseHelper.dll
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\bin\Release\net5.0\ref\Prayug.Module.DataBaseHelper.dll
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\bin\Release\net5.0\Prayug.Module.DataBaseHelper.pdb
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.csprojAssemblyReference.cache
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.dll
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\ref\Prayug.Module.DataBaseHelper.dll
+C:\Backend\prayug\Prayug.Module.DataBaseHelper\obj\Release\net5.0\Prayug.Module.DataBaseHelper.pdb

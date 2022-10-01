@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Prayug.Module.Core</id>
+    <version>1.0.0</version>
+    <authors>Prayug.Module.Core</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Prayug.Infrastructure" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Prayug.Module.DataBaseHelper" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Prayug.Module.DependencyInjection" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ClosedXML" version="0.96.0" exclude="Build,Analyzers" />
+        <dependency id="Dapper" version="2.0.123" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll" target="lib\net6.0\Prayug.Module.Core.dll" />
+  </files>
+</package>

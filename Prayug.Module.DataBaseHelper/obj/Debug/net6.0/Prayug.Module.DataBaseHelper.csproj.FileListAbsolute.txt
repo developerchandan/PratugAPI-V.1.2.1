@@ -1,0 +1,84 @@
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\refint\Prayug.Module.DataBaseHelper.dll
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Backend\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\refint\Prayug.Module.DataBaseHelper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\refint\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\refint\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\refint\Prayug.Module.DataBaseHelper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.deps.json
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.AssemblyReference.cache
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfoInputs.cache
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.AssemblyInfo.cs
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.csproj.CoreCompileInputs.cache
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\refint\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\M-13\Prayug\Prayug.Module.DataBaseHelper\obj\Debug\net6.0\ref\Prayug.Module.DataBaseHelper.dll

@@ -1,0 +1,10 @@
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\bin\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.deps.json
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\bin\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.dll
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\bin\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.pdb
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.csproj.AssemblyReference.cache
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.AssemblyInfoInputs.cache
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.AssemblyInfo.cs
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.dll
+C:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Debug\netcoreapp3.1\Prayug.Module.DependencyInjection.pdb

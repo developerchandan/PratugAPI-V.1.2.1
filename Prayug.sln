@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5FFDDEF-59A2-46C1-B371-DC4802378854}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prayug.Infrastructure", "Prayug.Infrastructure\Prayug.Infrastructure.csproj", "{AA05A9F8-C8E2-49B5-8FE7-E47BBAEEA7B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{15543F8D-CA83-4B8A-8229-9E56C51C65C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prayug.Module.Core", "Prayug.Module.Core\Prayug.Module.Core.csproj", "{DEF28F58-EBA2-4352-89DB-78D3DBA4C06F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prayug.Module.DataBaseHelper", "Prayug.Module.DataBaseHelper\Prayug.Module.DataBaseHelper.csproj", "{5DF878E2-1BD5-455B-B713-27C34C5004A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prayug.Module.DependencyInjection", "Prayug.Module.DependencyInjection\Prayug.Module.DependencyInjection.csproj", "{35DF959B-0815-47F0-B345-068ACDDE478A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prayug.Portal", "Prayug.Portal\Prayug.Portal.csproj", "{390CE706-FC9E-44E8-B3BB-6E852E678AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA05A9F8-C8E2-49B5-8FE7-E47BBAEEA7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA05A9F8-C8E2-49B5-8FE7-E47BBAEEA7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA05A9F8-C8E2-49B5-8FE7-E47BBAEEA7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA05A9F8-C8E2-49B5-8FE7-E47BBAEEA7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF28F58-EBA2-4352-89DB-78D3DBA4C06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF28F58-EBA2-4352-89DB-78D3DBA4C06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF28F58-EBA2-4352-89DB-78D3DBA4C06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF28F58-EBA2-4352-89DB-78D3DBA4C06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF878E2-1BD5-455B-B713-27C34C5004A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF878E2-1BD5-455B-B713-27C34C5004A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF878E2-1BD5-455B-B713-27C34C5004A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF878E2-1BD5-455B-B713-27C34C5004A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DF959B-0815-47F0-B345-068ACDDE478A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DF959B-0815-47F0-B345-068ACDDE478A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DF959B-0815-47F0-B345-068ACDDE478A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DF959B-0815-47F0-B345-068ACDDE478A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390CE706-FC9E-44E8-B3BB-6E852E678AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390CE706-FC9E-44E8-B3BB-6E852E678AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390CE706-FC9E-44E8-B3BB-6E852E678AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390CE706-FC9E-44E8-B3BB-6E852E678AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA05A9F8-C8E2-49B5-8FE7-E47BBAEEA7B2} = {B5FFDDEF-59A2-46C1-B371-DC4802378854}
+		{DEF28F58-EBA2-4352-89DB-78D3DBA4C06F} = {15543F8D-CA83-4B8A-8229-9E56C51C65C7}
+		{5DF878E2-1BD5-455B-B713-27C34C5004A1} = {15543F8D-CA83-4B8A-8229-9E56C51C65C7}
+		{35DF959B-0815-47F0-B345-068ACDDE478A} = {15543F8D-CA83-4B8A-8229-9E56C51C65C7}
+		{390CE706-FC9E-44E8-B3BB-6E852E678AE9} = {B5FFDDEF-59A2-46C1-B371-DC4802378854}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B13D024F-F31F-482C-86BF-F569F9390D9A}
+	EndGlobalSection
+EndGlobal

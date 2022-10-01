@@ -1,0 +1,133 @@
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Backend\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\refint\Prayug.Module.Core.dll
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Backend\Prayug\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\ref\Prayug.Module.Core.dll
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\projects\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll
+C:\projects\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\refint\Prayug.Module.Core.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\refint\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\refint\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\refint\Prayug.Module.Core.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.deps.json
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\M-13\Prayug\Prayug.Module.Core\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.csproj.CopyComplete
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\refint\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\Prayug.Module.Core.pdb
+D:\M-13\Prayug\Prayug.Module.Core\obj\Debug\net6.0\ref\Prayug.Module.Core.dll

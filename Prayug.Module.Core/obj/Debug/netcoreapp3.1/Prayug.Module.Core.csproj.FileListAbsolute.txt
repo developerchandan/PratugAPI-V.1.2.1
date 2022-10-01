@@ -1,0 +1,15 @@
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Module.Core.deps.json
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Module.Core.dll
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Module.Core.pdb
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Infrastructure.dll
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Module.DataBaseHelper.dll
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Infrastructure.pdb
+C:\Backend\Prayug\Prayug.Module.Core\bin\Debug\netcoreapp3.1\Prayug.Module.DataBaseHelper.pdb
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.csproj.AssemblyReference.cache
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.AssemblyInfoInputs.cache
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.AssemblyInfo.cs
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.csproj.CopyComplete
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.dll
+C:\Backend\Prayug\Prayug.Module.Core\obj\Debug\netcoreapp3.1\Prayug.Module.Core.pdb

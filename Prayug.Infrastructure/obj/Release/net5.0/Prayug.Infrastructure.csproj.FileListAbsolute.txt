@@ -1,0 +1,15 @@
+C:\Backend\prayug\Prayug.Infrastructure\bin\Release\net5.0\Prayug.Infrastructure.deps.json
+C:\Backend\prayug\Prayug.Infrastructure\bin\Release\net5.0\Prayug.Infrastructure.dll
+C:\Backend\prayug\Prayug.Infrastructure\bin\Release\net5.0\ref\Prayug.Infrastructure.dll
+C:\Backend\prayug\Prayug.Infrastructure\bin\Release\net5.0\Prayug.Infrastructure.pdb
+C:\Backend\prayug\Prayug.Infrastructure\bin\Release\net5.0\Prayug.Module.DataBaseHelper.dll
+C:\Backend\prayug\Prayug.Infrastructure\bin\Release\net5.0\Prayug.Module.DataBaseHelper.pdb
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.csprojAssemblyReference.cache
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.AssemblyInfoInputs.cache
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.AssemblyInfo.cs
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.csproj.CopyComplete
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.dll
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\ref\Prayug.Infrastructure.dll
+C:\Backend\prayug\Prayug.Infrastructure\obj\Release\net5.0\Prayug.Infrastructure.pdb

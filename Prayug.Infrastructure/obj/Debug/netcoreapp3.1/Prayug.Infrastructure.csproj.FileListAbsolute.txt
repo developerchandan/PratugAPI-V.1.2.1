@@ -1,0 +1,10 @@
+C:\Backend\Prayug\Prayug.Infrastructure\bin\Debug\netcoreapp3.1\Prayug.Infrastructure.deps.json
+C:\Backend\Prayug\Prayug.Infrastructure\bin\Debug\netcoreapp3.1\Prayug.Infrastructure.dll
+C:\Backend\Prayug\Prayug.Infrastructure\bin\Debug\netcoreapp3.1\Prayug.Infrastructure.pdb
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.csproj.AssemblyReference.cache
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.AssemblyInfoInputs.cache
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.AssemblyInfo.cs
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.dll
+C:\Backend\Prayug\Prayug.Infrastructure\obj\Debug\netcoreapp3.1\Prayug.Infrastructure.pdb

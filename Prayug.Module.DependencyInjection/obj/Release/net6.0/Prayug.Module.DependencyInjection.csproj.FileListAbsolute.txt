@@ -1,0 +1,36 @@
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.deps.json
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.csproj.AssemblyReference.cache
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.AssemblyInfoInputs.cache
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.AssemblyInfo.cs
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.csproj.CoreCompileInputs.cache
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\refint\Prayug.Module.DependencyInjection.dll
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Backend\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\ref\Prayug.Module.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.deps.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.AssemblyInfo.cs
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\refint\Prayug.Module.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\ref\Prayug.Module.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.deps.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\bin\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.AssemblyInfo.cs
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\refint\Prayug.Module.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.DependencyInjection\obj\Release\net6.0\ref\Prayug.Module.DependencyInjection.dll

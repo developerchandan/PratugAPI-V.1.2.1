@@ -1,0 +1,532 @@
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\refint\Prayug.Portal.dll
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+D:\Backend\Prayug\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\Backend\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\ref\Prayug.Portal.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\projects\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+C:\projects\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\refint\Prayug.Portal.dll
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+C:\Users\ADMIN\Pictures\Prayug\Prayug\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\refint\Prayug.Portal.dll
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+D:\Prayug V.1.2.1\PrayugApi\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\refint\Prayug.Portal.dll
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+D:\Prayug V.1.2.1\Prayug\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\refint\Prayug.Portal.dll
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.Development.json
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\appsettings.json
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.staticwebassets.runtime.json
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.exe
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.deps.json
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.runtimeconfig.json
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Portal.pdb
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\ClosedXML.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Dapper.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Google.Protobuf.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\MySql.Data.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\ZstdNet.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.dll
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Infrastructure.pdb
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.Core.pdb
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\M-13\Prayug\Prayug.Portal\bin\Debug\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.AssemblyReference.cache
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.GeneratedMSBuildEditorConfig.editorconfig
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfoInputs.cache
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.AssemblyInfo.cs
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CoreCompileInputs.cache
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cs
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.MvcApplicationPartsAssemblyInfo.cache
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.build.json
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\staticwebassets.development.json
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\scopedcss\bundle\Prayug.Portal.styles.css
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.csproj.CopyComplete
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.dll
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\refint\Prayug.Portal.dll
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.pdb
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\Prayug.Portal.genruntimeconfig.cache
+D:\M-13\Prayug\Prayug.Portal\obj\Debug\net6.0\ref\Prayug.Portal.dll

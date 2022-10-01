@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\ADMIN\Desktop\Asp_Core_publish</_PublishTargetUrl>
+    <History>True|2022-08-08T07:36:02.0757574Z;True|2022-08-08T12:39:39.4752619+05:30;True|2022-08-07T12:14:55.0593650+05:30;True|2022-08-06T13:11:32.2911288+05:30;True|2022-08-06T12:27:47.8088924+05:30;True|2022-08-06T10:22:04.3815030+05:30;True|2022-08-06T09:46:45.5579907+05:30;True|2022-08-03T12:02:00.6235202+05:30;True|2022-08-01T19:53:05.8717149+05:30;True|2022-07-31T23:33:00.4945431+05:30;True|2022-07-30T18:13:05.1550761+05:30;True|2022-07-30T14:09:35.1892163+05:30;True|2022-07-30T10:12:29.7179403+05:30;True|2022-07-27T14:47:32.0754010+05:30;</History>
+  </PropertyGroup>
+</Project>
