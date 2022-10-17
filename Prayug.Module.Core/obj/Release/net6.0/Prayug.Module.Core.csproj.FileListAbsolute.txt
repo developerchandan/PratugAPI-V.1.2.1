@@ -55,3 +55,22 @@ C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Release\net
 C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Release\net6.0\refint\Prayug.Module.Core.dll
 C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.pdb
 C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\obj\Release\net6.0\ref\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.Core.deps.json
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.Core.pdb
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Infrastructure.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.DataBaseHelper.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.DependencyInjection.dll
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Infrastructure.pdb
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.DataBaseHelper.pdb
+D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.DependencyInjection.pdb
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.csproj.AssemblyReference.cache
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.AssemblyInfoInputs.cache
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.AssemblyInfo.cs
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.csproj.CoreCompileInputs.cache
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.csproj.CopyComplete
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\refint\Prayug.Module.Core.dll
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\Prayug.Module.Core.pdb
+D:\M-13\Prayug\Prayug.Module.Core\obj\Release\net6.0\ref\Prayug.Module.Core.dll

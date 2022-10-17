@@ -13,5 +13,6 @@ namespace Prayug.Module.Core.Models
         public string subject_name { get; set; }
         public string semester_name { get; set; }
         public int course_id { get; set; }
+        public int is_permission { get; set; }
     }
 }

@@ -78,6 +78,7 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [AllowAnonymous]
         [HttpGet("GetCategoryList")]
         public async Task<IActionResult> GetCategoryList()
         {

@@ -48,6 +48,7 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [AllowAnonymous]
         [HttpGet("GetAllGroup")]
         public async Task<IActionResult> GetAllGroup(int course_id)
         {
@@ -70,6 +71,7 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [AllowAnonymous]
         [HttpGet("GetAllSubject")]
         public async Task<IActionResult> GetAllSubject(int course_id)
         {
@@ -331,6 +333,7 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [AllowAnonymous]
         [HttpGet("GetAllCourseByCategory")]
         public async Task<IActionResult> GetAllCourseByCategory(string category_code)
         {

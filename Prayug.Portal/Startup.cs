@@ -64,6 +64,8 @@ namespace Prayug.Portal
             services.AddTransient<Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web.ILessionRepository, Prayug.Module.Core.Repositorys.Web.LessionRepository>();
             services.AddTransient<Prayug.Module.Core.Interfaces.ICategory, Prayug.Module.Core.Concrete.CategoryConcrete>();
             services.AddTransient<Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web.ICategoryRepository, Prayug.Module.Core.Repositorys.Web.CategoryRepository>();
+            services.AddTransient<Prayug.Module.Core.Interfaces.IEnquiry, Prayug.Module.Core.Concrete.EnquiryConcrete>();
+            services.AddTransient<Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web.IEnquiryRepository, Prayug.Module.Core.Repositorys.Web.EnquiryRepository>();
             #endregion
         }
 

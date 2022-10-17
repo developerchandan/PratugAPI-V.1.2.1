@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BKgC2rD5IhAL60OIauYRgCVA5tMxHvPDxGJ6BGHzq5g=",
+  "Hash": "iV3+ksnxqI/SkXf7L0Y+VP0HeT+9S0Wo+p8m3tg/O+4=",
   "Source": "Prayug.Portal",
   "BasePath": "_content/Prayug.Portal",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Prayug.Portal\\wwwroot",
       "Source": "Prayug.Portal",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952202932039286.xlsx",
+      "Identity": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952202932039286.xlsx",
       "SourceId": "Prayug.Portal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "RelativePath": "ImportExcel/ImportCourse_637952202932039286.xlsx",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\ImportExcel\\ImportCourse_637952202932039286.xlsx"
     },
     {
-      "Identity": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952206961992480.xlsx",
+      "Identity": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952206961992480.xlsx",
       "SourceId": "Prayug.Portal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "RelativePath": "ImportExcel/ImportCourse_637952206961992480.xlsx",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\ImportExcel\\ImportCourse_637952206961992480.xlsx"
     },
     {
-      "Identity": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952214278109274.xlsx",
+      "Identity": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952214278109274.xlsx",
       "SourceId": "Prayug.Portal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "RelativePath": "ImportExcel/ImportCourse_637952214278109274.xlsx",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\ImportExcel\\ImportCourse_637952214278109274.xlsx"
     },
     {
-      "Identity": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952228553194067.xlsx",
+      "Identity": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952228553194067.xlsx",
       "SourceId": "Prayug.Portal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "RelativePath": "ImportExcel/ImportCourse_637952228553194067.xlsx",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\ImportExcel\\ImportCourse_637952228553194067.xlsx"
     },
     {
-      "Identity": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952311209150514.xlsx",
+      "Identity": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952311209150514.xlsx",
       "SourceId": "Prayug.Portal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "RelativePath": "ImportExcel/ImportCourse_637952311209150514.xlsx",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\ImportExcel\\ImportCourse_637952311209150514.xlsx"
     },
     {
-      "Identity": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952312516284991.xlsx",
+      "Identity": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\ImportExcel\\ImportCourse_637952312516284991.xlsx",
       "SourceId": "Prayug.Portal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ThinkPad\\Downloads\\Prayug (2)\\Prayug\\Prayug.Portal\\wwwroot\\",
+      "ContentRoot": "D:\\M-13\\Prayug\\Prayug.Portal\\wwwroot\\",
       "BasePath": "_content/Prayug.Portal",
       "RelativePath": "ImportExcel/ImportCourse_637952312516284991.xlsx",
       "AssetKind": "All",
