@@ -8,6 +8,7 @@ namespace Prayug.Module.Core.Models
 {
     public class tbl_subject_vm
     {
+        public int id { get; set; }
         public int subject_id { get; set; }
         public string subject_name { get; set; }
         public int group_id { get; set; }

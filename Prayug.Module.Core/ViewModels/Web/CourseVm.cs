@@ -13,5 +13,6 @@ namespace Prayug.Module.Core.ViewModels.Web
         public string course_name { get; set; }
         public string category { get; set; }
         public string image_path { get; set; }
+        public string description { get; set; }
     }
 }

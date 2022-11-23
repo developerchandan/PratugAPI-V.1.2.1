@@ -10,5 +10,6 @@ namespace Prayug.Module.Core.ViewModels.Web
     {
         public string course_code { get; set; }
         public string subject_code { get; set; }
+        public string subject_name { get; set; }
     }
 }

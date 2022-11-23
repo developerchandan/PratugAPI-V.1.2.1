@@ -8,6 +8,7 @@ namespace Prayug.Module.Core.ViewModels.Web
 {
     public class SubjectVm
     {
+        public int id { get; set; }
         public int subject_id { get; set; }
         public string subject_code { get; set; }
         public string subject_name { get; set; }

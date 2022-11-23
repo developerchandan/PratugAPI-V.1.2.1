@@ -21,13 +21,15 @@ namespace Prayug.Module.Core.Concrete
             return await conn.QueryFirstOrDefaultAsync<tbl_category_vm>(@"usp_core_check_category_exist", param, commandType: CommandType.StoredProcedure);
         }
 
-        public async Task<int> CreateCategory(IDbConnection conn, IDbTransaction tran, string category_code, string category_name)
+        public async Task<int> CreateCategory(IDbConnection conn, IDbTransaction tran, string category_code, string category_name, int course_type, string duration)
         {
             try
             {
                 DynamicParameters param = new DynamicParameters();
                 param.Add("p_category_code", category_code);
                 param.Add("p_category_name", category_name);
+                param.Add("p_course_type", course_type);
+                param.Add("p_duration", duration);
                 return await conn.ExecuteAsync("usp_core_create_category", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch

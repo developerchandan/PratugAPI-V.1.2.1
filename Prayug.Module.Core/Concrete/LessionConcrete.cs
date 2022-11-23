@@ -137,5 +137,18 @@ namespace Prayug.Module.Core.Concrete
             param.Add("p_lession_id", lession_id);
             return await conn.QueryFirstOrDefaultAsync<int>(@"usp_workbook_item_save_by_lession", param, tran, commandType: CommandType.StoredProcedure);
         }
+        public async Task<int> GetItemDelete(IDbConnection conn, IDbTransaction tran, int item_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_item_id", item_id);
+                return await conn.ExecuteAsync(@"usp_core_delete_lession_item", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 }

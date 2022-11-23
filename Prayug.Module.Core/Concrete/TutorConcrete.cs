@@ -34,7 +34,7 @@ namespace Prayug.Module.Core.Concrete
             return await conn.QueryFirstOrDefaultAsync<tbl_course_vm>(@"usp_core_check_course_exist", param, commandType: CommandType.StoredProcedure);
         }
 
-        public async Task<int> CreateCourse(IDbConnection conn, IDbTransaction tran, string course_code, string course_name, string image_path, string category)
+        public async Task<int> CreateCourse(IDbConnection conn, IDbTransaction tran, string course_code, string course_name, string image_path, string category, string description)
         {
             try
             {
@@ -43,6 +43,7 @@ namespace Prayug.Module.Core.Concrete
                 param.Add("p_course_name", course_name);
                 param.Add("p_image_path", image_path);
                 param.Add("p_category", category);
+                param.Add("p_description", description);
                 return await conn.ExecuteAsync("usp_core_create_course", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch
@@ -200,5 +201,46 @@ namespace Prayug.Module.Core.Concrete
                 throw;
             }
         }
+
+        public async Task<int> GetUserDelete(IDbConnection conn, IDbTransaction tran, int user_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_id", user_id);
+                return await conn.ExecuteAsync(@"usp_core_delete_user", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task<all_user_list> GetUserDetail(IDbConnection conn, int user_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_id", user_id);
+                return await conn.QueryFirstOrDefaultAsync<all_user_list>(@"usp_core_get_user_detail_byid", param, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task<int> UserPermissionAction(IDbConnection conn, IDbTransaction tran, int user_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_id", user_id);
+                return await conn.ExecuteAsync(@"usp_core_get_user_permission_active", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
     }
 }

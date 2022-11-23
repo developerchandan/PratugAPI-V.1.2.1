@@ -18,5 +18,6 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
         Task<LessionItemListVm> GetItemDetail(int item_id);
         Task<int> SaveQuestions(McqQuestionVm[] entity, int lession_id, TokenInfo userdetail);
         Task<int> SaveWorkbookQuestions(WorkbookQuestionVm[] entity, int lession_id, TokenInfo userdetail);
+        Task<int> GetItemDelete(int item_id);
     }
 }

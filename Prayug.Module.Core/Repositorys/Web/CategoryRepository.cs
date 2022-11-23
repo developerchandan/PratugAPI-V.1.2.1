@@ -39,7 +39,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                         tbl_category_vm Subject = await _category.CheckCategoryExist(conn, entity.category_code, entity.category_name);
                         if (Subject == null)
                         {
-                            status = await _category.CreateCategory(conn, tran, entity.category_code, entity.category_name);
+                            status = await _category.CreateCategory(conn, tran, entity.category_code, entity.category_name, entity.course_type, entity.duration);
                         }
                         else
                         {

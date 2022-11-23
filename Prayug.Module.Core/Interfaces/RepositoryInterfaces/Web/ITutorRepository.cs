@@ -22,6 +22,9 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
         Task<int> CreateOrder(OrderVm entity, TokenInfo token); 
         Task<(IEnumerable<UserListVm>, Int64)> AllUserList(int pageNo, int pageSize, string sortName, string sortType, UserSearchRequestVm entity);
         Task<int> GetUserActive(int user_id);
+        Task<int> UserPermissionAction(int user_id);
+        Task<int> GetUserDelete(int user_id);
+        Task<UserListVm> GetUserDetail(int user_id);
 
     }
 }

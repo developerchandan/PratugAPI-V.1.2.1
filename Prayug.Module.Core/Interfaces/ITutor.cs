@@ -13,7 +13,7 @@ namespace Prayug.Module.Core.Interfaces
     {
         Task<(IEnumerable<tbl_course_vm>, Int64)> GetCourseList(IDbConnection conn, QueryParameters query);
         Task<tbl_course_vm> CheckCourseExist(IDbConnection conn, string course_code, string course_name);
-        Task<int> CreateCourse(IDbConnection conn, IDbTransaction tran, string course_code, string course_name, string image_path, string category);
+        Task<int> CreateCourse(IDbConnection conn, IDbTransaction tran, string course_code, string course_name, string image_path, string category, string description);
         Task<int> EditCourse(IDbConnection conn, IDbTransaction tran, int course_id, string course_code, string course_name, string image_path);
 
         Task<int> GetCourseDelete(IDbConnection conn, IDbTransaction tran, int course_id);
@@ -27,6 +27,9 @@ namespace Prayug.Module.Core.Interfaces
 
         Task<(IEnumerable<all_user_list>, Int64)> AllUserList(IDbConnection conn, QueryParameters query);
         Task<int> GetUserActive(IDbConnection conn, IDbTransaction tran, int user_id);
+        Task<int> UserPermissionAction(IDbConnection conn, IDbTransaction tran, int user_id);
+        Task<int> GetUserDelete(IDbConnection conn, IDbTransaction tran, int user_id);
+        Task<all_user_list> GetUserDetail(IDbConnection conn, int user_id);
 
     }
 }

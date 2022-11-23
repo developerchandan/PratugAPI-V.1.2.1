@@ -118,6 +118,45 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [HttpPost("ImportMCQ")]
+        public async Task<IActionResult> ImportMCQ(IFormFile files, string unit_id, int lession_id)
+        {
+            //int lession_id = 0;
+            //IFormFile files = entity.files;
+            using (ISingleModelResponse<ImportResponseVm> response = new SingleModelResponse<ImportResponseVm>())
+            {
+                try
+                {
+                    if (files != null && files.Length > 0 && System.IO.Path.GetExtension(files.FileName).ToLower() == ".xlsx")
+                    {
+                        //GlobalSettings.WebRootPath
+                        var folderPath = "ImportExcel/" + Path.GetFileNameWithoutExtension(files.FileName) + "_" + DateTime.Now.Ticks + Path.GetExtension(files.FileName);
+                        string filePath = await UploadFiles(files, folderPath);
+                        var stream = new MemoryStream(System.IO.File.ReadAllBytes(filePath));
+                        ImportResponseVm fileRead = await _importRepository.ImportMCQ(stream, filePath, unit_id, lession_id);
+                        fileRead.file_path = folderPath;
+                        //return File(fileRead, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ImportBrand");
+                        response.objResponse = fileRead;
+                        response.Status = ResponseMessageEnum.Success;
+
+                        response.Message = fileRead != null ? "Success" : "Failure";
+                        return Ok(response);
+                    }
+                    else
+                    {
+                        response.Status = ResponseMessageEnum.Failure;
+                        response.Message = "Excel file does not exit";
+                        return Ok(response);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
 
     }
 }

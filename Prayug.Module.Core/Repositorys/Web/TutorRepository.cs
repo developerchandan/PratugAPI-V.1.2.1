@@ -77,7 +77,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                         tbl_course_vm course = await _tutor.CheckCourseExist(conn, entity.course_code, entity.course_name);
                         if (course == null)
                         {
-                            status = await _tutor.CreateCourse(conn, tran, entity.course_code, entity.course_name, entity.image_path, entity.category);
+                            status = await _tutor.CreateCourse(conn, tran, entity.course_code, entity.course_name, entity.image_path, entity.category, entity.description);
                         }
                         else
                         {
@@ -421,6 +421,92 @@ namespace Prayug.Module.Core.Repositorys.Web
                     try
                     {
                         int obj = await _tutor.GetUserActive(conn, tran, user_id);
+                        if (obj == 1)
+                        {
+                            tran.Commit();
+                            return 1;
+                        }
+                        else
+                        {
+                            tran.Rollback();
+                            return 0;
+                        }
+                    }
+                    catch
+                    {
+                        throw;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
+
+        public async Task<int> GetUserDelete(int user_id)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                using (IDbTransaction tran = conn.BeginTransaction())
+                {
+                    try
+                    {
+                        int obj = await _tutor.GetUserDelete(conn, tran, user_id);
+                        if (obj == 1)
+                        {
+                            tran.Commit();
+                            return 1;
+
+                        }
+                        else
+                        {
+                            tran.Rollback();
+                            return 0;
+                        }
+                    }
+                    catch
+                    {
+                        throw;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
+        public async Task<UserListVm> GetUserDetail(int user_id)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                try
+                {
+                    all_user_list obj = await _tutor.GetUserDetail(conn, user_id);
+                    return _mapper.Map<UserListVm>(obj);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
+        public async Task<int> UserPermissionAction(int user_id)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                using (IDbTransaction tran = conn.BeginTransaction())
+                {
+                    try
+                    {
+                        int obj = await _tutor.UserPermissionAction(conn, tran, user_id);
                         if (obj == 1)
                         {
                             tran.Commit();

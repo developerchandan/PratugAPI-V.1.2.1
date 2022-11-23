@@ -7,6 +7,7 @@ using Prayug.Infrastructure.Models;
 using Prayug.Infrastructure.ResponseFormat;
 using Prayug.Infrastructure.SmartTable;
 using Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web;
+using Prayug.Module.Core.Repositorys.Web;
 using Prayug.Module.Core.ViewModels.Web;
 using System;
 using System.Collections.Generic;
@@ -272,6 +273,28 @@ namespace Prayug.Portal.Controllers.Web.V1
                     response.Message = ex.Message;
                 }
                 return Ok(response);
+            }
+        }
+        [HttpDelete("GetItemDelete")]
+        public async Task<IActionResult> GetItemDelete(int item_id)
+        {
+            using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
+            {
+                try
+                {
+                    int result = await _lession.GetItemDelete(item_id);
+                    response.objResponse = result;
+                    response.Status = (result > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Deleted";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
             }
         }
     }

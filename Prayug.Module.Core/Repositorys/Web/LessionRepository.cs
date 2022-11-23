@@ -336,5 +336,38 @@ namespace Prayug.Module.Core.Repositorys.Web
             }
             return 1;
         }
+        public async Task<int> GetItemDelete(int item_id)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                using (IDbTransaction tran = conn.BeginTransaction())
+                {
+                    try
+                    {
+                        int obj = await _lession.GetItemDelete(conn, tran, item_id);
+                        if (obj == 1)
+                        {
+                            tran.Commit();
+                            return 1;
+
+                        }
+                        else
+                        {
+                            tran.Rollback();
+                            return 0;
+                        }
+                    }
+                    catch
+                    {
+                        throw;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
     }
 }

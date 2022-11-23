@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Prayug.Module.Core.Models;
 using Prayug.Module.Core.ViewModels.Request;
+using Prayug.Module.Core.ViewModels.Response;
 using Prayug.Module.Core.ViewModels.Web;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,7 @@ namespace Prayug.Module.Core.MappingProfile
             CreateMap<fnd_user, UserVm>();
             CreateMap<tbl_course_vm, CourseListVm>();
             CreateMap<import_course, ImportCourseList>();
+            CreateMap<import_mcq, ImportMcqList>();
             CreateMap<import_response, ImportResponseVm>();
             CreateMap<tbl_subject_vm, SubjectListVm>();
             CreateMap<tbl_unit_lession, LessionVm>();
@@ -37,6 +39,7 @@ namespace Prayug.Module.Core.MappingProfile
             CreateMap<course_structure, CourseStructureVm>();
             CreateMap<course_skill, CourseSkillVm>();
             CreateMap<all_user_list, UserListVm>();
+            CreateMap<tbl_common_subject, CommonSubjectVm>();
         }
     }
 }

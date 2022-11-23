@@ -12,5 +12,6 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
     {
         Task<ImportResponseVm> ImportCourse(MemoryStream file_stream, string path);
         Task<ImportResponseVm> ImportSubject(MemoryStream file_stream, string path);
+        Task<ImportResponseVm> ImportMCQ(MemoryStream file_stream, string path,string unit_id, int lession_id);
     }
 }

@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\ThinkPad\Downloads\Prayug (2)\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.Core.dll" target="lib\net6.0\Prayug.Module.Core.dll" />
+    <file src="D:\M-13\Prayug\Prayug.Module.Core\bin\Release\net6.0\Prayug.Module.Core.dll" target="lib\net6.0\Prayug.Module.Core.dll" />
   </files>
 </package>

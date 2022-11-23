@@ -434,6 +434,72 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [HttpDelete("GetUserDelete")]
+        public async Task<IActionResult> GetUserDelete(int user_id)
+        {
+            using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
+            {
+                try
+                {
+                    int result = await _tutorRepository.GetUserDelete(user_id);
+                    response.objResponse = result;
+                    response.Status = (result > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Deleted";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpGet("GetUserDetail")]
+        public async Task<IActionResult> GetUserDetail(int user_id)
+        {
+            using (ISingleModelResponse<UserListVm> response = new SingleModelResponse<UserListVm>())
+            {
+                try
+                {
+                    UserListVm objView = await _tutorRepository.GetUserDetail(user_id);
+                    response.objResponse = objView;
+                    response.Status = (objView != null) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Course";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpGet("UserPermissionAction")]
+        public async Task<IActionResult> UserPermissionAction(int user_id)
+        {
+            using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
+            {
+                try
+                {
+                    int result = await _tutorRepository.UserPermissionAction(user_id);
+                    response.objResponse = result;
+                    response.Status = (result > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "User Action";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
     }
     
 }

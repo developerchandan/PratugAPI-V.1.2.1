@@ -22,5 +22,6 @@ namespace Prayug.Module.Core.Interfaces
         Task<int> SaveLessionMcq(IDbConnection conn, IDbTransaction tran, int lession_id);
         Task<int> SaveWorkbookQuestions(IDbConnection conn, IDbTransaction tran, workbook_question question);
         Task<int> SaveLessionWorkbook(IDbConnection conn, IDbTransaction tran, int lession_id);
+        Task<int> GetItemDelete(IDbConnection conn, IDbTransaction tran, int item_id);
     }
 }

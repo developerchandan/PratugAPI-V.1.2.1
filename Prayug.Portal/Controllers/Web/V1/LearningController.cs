@@ -25,7 +25,7 @@ namespace Prayug.Portal.Controllers.Web.V1
         {
             _learnRepository = learnRepository;
         }
-
+        
         [HttpGet("GetAllCourse")]
         public async Task<IActionResult> GetAllCourse()
         {

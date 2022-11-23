@@ -13,5 +13,6 @@ namespace Prayug.Module.Core.Models
         public string course_name { get; set; }
         public string image_path { get; set; }
         public int is_active { get; set; }
+        public string description { get; set; }
     }
 }

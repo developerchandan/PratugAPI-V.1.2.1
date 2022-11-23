@@ -26,5 +26,16 @@ namespace Prayug.Module.Core.Concrete
         {
             throw new NotImplementedException();
         }
+
+        public async Task<(IEnumerable<import_mcq>, import_response)> ImportMCQ(IDbConnection conn, IDbTransaction tran, string mcq, string unit_id, int lession_id)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("p_mcq", mcq);
+            param.Add("p_unit_id", unit_id);
+            //return await conn.QueryAsync<org_country>(@"usp_core_import_country", param, commandType: CommandType.StoredProcedure);
+            var multi = await conn.QueryMultipleAsync(@"usp_core_import_mcq", param, tran, commandType: CommandType.StoredProcedure);
+
+            return (await multi.ReadAsync<import_mcq>(), await multi.ReadSingleAsync<import_response>());
+        }
     }
 }
