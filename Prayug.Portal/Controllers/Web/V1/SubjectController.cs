@@ -532,6 +532,28 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
-
+        [AllowAnonymous]
+        [HttpGet("GetAllCertificationSubject")]
+        public async Task<IActionResult> GetAllCertificationSubject()
+        {
+            using (ISingleModelResponse<IEnumerable<SubjectVm>> response = new SingleModelResponse<IEnumerable<SubjectVm>>())
+            {
+                try
+                {
+                    IEnumerable<SubjectVm> objResult = await _subject.GetAllCertificationSubject();
+                    response.objResponse = objResult;
+                    response.Status = (objResult != null && objResult.Count() > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "subject List";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
     }
 }

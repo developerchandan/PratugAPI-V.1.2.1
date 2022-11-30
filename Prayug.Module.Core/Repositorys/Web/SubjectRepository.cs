@@ -544,5 +544,26 @@ namespace Prayug.Module.Core.Repositorys.Web
                 }
             }
         }
+        public async Task<IEnumerable<SubjectVm>> GetAllCertificationSubject()
+        {
+            using (IDbConnection conn = Connection)
+            {
+                //QueryParameters query = new QueryParameters();
+                conn.Open();
+                try
+                {
+                    IEnumerable<tbl_subject_vm> objCourse = await _subject.GetAllCertificationSubject(conn);
+                    return _mapper.Map<IEnumerable<SubjectVm>>(objCourse);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
     }
 }

@@ -70,5 +70,23 @@ namespace Prayug.Module.Core.Concrete
                 return await conn.QueryFirstOrDefaultAsync<fnd_user>(@"usp_core_get_user_detail_byemail", param, commandType: CommandType.StoredProcedure);
             
         }
+        public async Task<int> UpdatePaymentDetail(IDbConnection conn, IDbTransaction tran, int user_id, string service, string mode, string is_free, int amount)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_id", user_id);
+                param.Add("p_service", service);
+                param.Add("p_mode", mode);
+                param.Add("p_is_free", is_free);
+                param.Add("p_amount", amount);
+                return await conn.ExecuteAsync(@"usp_core_portal_change_payment_detail", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
     }
 }

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Prayug.Infrastructure.Enums;
 using Prayug.Infrastructure.ResponseFormat;
 using Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web;
+using Prayug.Module.Core.ViewModels.Request;
 using Prayug.Module.Core.ViewModels.Web;
 using System;
 using System.Collections.Generic;
@@ -121,6 +122,40 @@ namespace Prayug.Portal.Controllers.Web.V1
                     {
                         response.Status = ResponseMessageEnum.Failure;
                         response.Message = "Password not change Successfully";
+                        return Ok(response);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = ex.Message;
+                    return StatusCode(500, response);
+                }
+
+
+
+            }
+        }
+        [HttpPut]
+        [Route("UpdatePaymentDetail")]
+        public async Task<IActionResult> UpdatePaymentDetail(UpdateUserPayment entity)
+        {
+            int trnStatus = 0;
+            using (ISingleStatusResponse<int> response = new SingleStatusResponse<int>())
+            {
+                try
+                {
+                    trnStatus = await _userAuthenticationRepository.UpdatePaymentDetail(entity.user_id, entity.service, entity.mode, entity.is_free, entity.amount);
+                    if (trnStatus == 1)
+                    {
+                        response.Status = ResponseMessageEnum.Success;
+                        response.Message = ResponseMessageEnum.Success.GetDescription();
+                        return Ok(response);
+                    }
+                    else
+                    {
+                        response.Status = ResponseMessageEnum.Failure;
+                        response.Message = "User Payment Updated Successfully";
                         return Ok(response);
                     }
                 }

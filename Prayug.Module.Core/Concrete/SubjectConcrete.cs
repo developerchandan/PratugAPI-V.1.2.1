@@ -248,6 +248,18 @@ namespace Prayug.Module.Core.Concrete
                 throw;
             }
         }
+        public async Task<IEnumerable<tbl_subject_vm>> GetAllCertificationSubject(IDbConnection conn)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                return await conn.QueryAsync<tbl_subject_vm>(@"usp_core_get_all_certification_subject_list", null, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
     }
 }

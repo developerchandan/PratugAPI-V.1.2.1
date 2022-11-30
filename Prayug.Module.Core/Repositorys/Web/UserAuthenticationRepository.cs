@@ -127,7 +127,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                 }
             }
         }
-        //-----
+        //----- change passwoir
         public async Task<int> ChangePassword(string usre_name, string current_password, string new_password)
         {
             int userstatus = 0;
@@ -169,6 +169,45 @@ namespace Prayug.Module.Core.Repositorys.Web
         }
 
         //---------
+        public async Task<int> UpdatePaymentDetail(int user_id, string service, string mode, string is_free, int amount)
+        {
+            int userstatus = 0;
+            //int customaerDeletestatus = 0;
+
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                using (IDbTransaction tran = conn.BeginTransaction())
+                {
+                    try
+                    {
+                        userstatus = await _user.UpdatePaymentDetail(conn, tran, user_id, service, mode, is_free, amount);
+
+                        //Rollback if any table not inserted
+                        if (userstatus == 0)
+                        {
+                            tran.Rollback();
+                            return 0;
+                        }
+                        else
+                        {
+
+                            tran.Commit();
+                        }
+                    }
+                    catch
+                    {
+                        tran.Rollback();
+                        throw;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+            return 1;
+        }
 
     }
 }

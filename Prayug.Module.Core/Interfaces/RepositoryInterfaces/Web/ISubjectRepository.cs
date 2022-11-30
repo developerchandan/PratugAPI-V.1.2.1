@@ -25,5 +25,6 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
         Task<int> GetDeleteCommonSubject(int subject_id);
         Task<int> CreateOneSubject(UserSemesterVm entity, TokenInfo token);
         Task<IEnumerable<CommonSubjectVm>> GetAllSubjects();
+        Task<IEnumerable<SubjectVm>> GetAllCertificationSubject();
     }
 }
