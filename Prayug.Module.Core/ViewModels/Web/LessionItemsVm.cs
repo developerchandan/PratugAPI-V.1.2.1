@@ -10,6 +10,7 @@ namespace Prayug.Module.Core.ViewModels.Web
     {
         public int item_id { get; set; }
         public string item_name { get; set; }
+        public string language_name { get; set; }
         public string item_icon { get; set; }
         public string item_path { get; set; }
         public int lession_id { get; set; }

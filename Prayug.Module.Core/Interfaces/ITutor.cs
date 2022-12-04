@@ -14,7 +14,7 @@ namespace Prayug.Module.Core.Interfaces
         Task<(IEnumerable<tbl_course_vm>, Int64)> GetCourseList(IDbConnection conn, QueryParameters query);
         Task<tbl_course_vm> CheckCourseExist(IDbConnection conn, string course_code, string course_name);
         Task<int> CreateCourse(IDbConnection conn, IDbTransaction tran, string course_code, string course_name, string image_path, string category, string description);
-        Task<int> EditCourse(IDbConnection conn, IDbTransaction tran, int course_id, string course_code, string course_name, string image_path);
+        Task<int> EditCourse(IDbConnection conn, IDbTransaction tran, int course_id, string course_code, string course_name, string image_path, string description);
 
         Task<int> GetCourseDelete(IDbConnection conn, IDbTransaction tran, int course_id);
         Task<course_structure> CheckCourseStructureExist(IDbConnection conn, int course_id, string item_name);

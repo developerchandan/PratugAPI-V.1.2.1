@@ -14,5 +14,6 @@ namespace Prayug.Module.Core.Models
         public string item_path { get; set; }
         public int lession_id { get; set; }
         public string lession_name { get; set; }
+        public string language_name { get; set; }
     }
 }

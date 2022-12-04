@@ -76,7 +76,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                         tbl_subject_vm Subject = await _subject.CheckSubjectExist(conn, entity.course_id, entity.subject_code, entity.subject_name);
                         if (Subject == null)
                         {
-                            status = await _subject.CreateSubject(conn, tran, entity.subject_id, entity.course_id, entity.group_id, entity.group_name, entity.subject_code, entity.subject_name);
+                            status = await _subject.CreateSubject(conn, tran, entity.subject_id, entity.course_id, entity.group_id, entity.group_name, entity.subject_code, entity.subject_name, entity.description);
                         }
                         else
                         {
@@ -168,7 +168,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                         if (Subject == null)
                         {
                             int isDeleted = await _subject.DeleteSubjectItem(conn, tran, entity.id);
-                            status = await _subject.CreateSubject(conn, tran, entity.subject_id, entity.course_id, entity.group_id, entity.group_name, entity.subject_code, entity.subject_name);
+                            status = await _subject.CreateSubject(conn, tran, entity.subject_id, entity.course_id, entity.group_id, entity.group_name, entity.subject_code, entity.subject_name, entity.description);
                             isUpdate = 1;
                         }
                         else
@@ -176,7 +176,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                             //int isDeleted = await _subject.DeleteSubjectForInsert(conn, tran, entity.id);
                             //if (isDeleted > 0)
                             //{
-                                status = await _subject.EditSubject(conn, tran, entity.id, entity.subject_id, entity.course_id, entity.group_id, entity.group_name, entity.subject_code, entity.subject_name);
+                                status = await _subject.EditSubject(conn, tran, entity.id, entity.subject_id, entity.course_id, entity.group_id, entity.group_name, entity.subject_code, entity.subject_name, entity.description);
                             //}
                             isUpdate = 2;
                         }

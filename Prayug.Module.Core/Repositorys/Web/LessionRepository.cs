@@ -125,7 +125,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                 {
                     try
                     {
-                        status = await _lession.CreateLessionItem(conn, tran, entity.lession_id, entity.subject_id, entity.unit_id, entity.item_name, entity.item_path);
+                        status = await _lession.CreateLessionItem(conn, tran, entity.lession_id, entity.subject_id, entity.unit_id, entity.item_name, entity.language_name, entity.item_path);
                         //Rollback if any table not inserted
                         if (status == 0)
                         {

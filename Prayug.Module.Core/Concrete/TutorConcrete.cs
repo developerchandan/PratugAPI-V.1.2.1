@@ -51,7 +51,7 @@ namespace Prayug.Module.Core.Concrete
                 throw;
             }
         }
-        public async Task<int> EditCourse(IDbConnection conn, IDbTransaction tran, int course_id, string course_code, string course_name, string image_path)
+        public async Task<int> EditCourse(IDbConnection conn, IDbTransaction tran, int course_id, string course_code, string course_name, string image_path, string description)
         {
             try
             {
@@ -60,6 +60,7 @@ namespace Prayug.Module.Core.Concrete
                 param.Add("p_course_code", course_code);
                 param.Add("p_course_name", course_name);
                 param.Add("p_image_path", image_path);
+                param.Add("p_description", description);
                 return await conn.ExecuteAsync("usp_core_edit_course", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch

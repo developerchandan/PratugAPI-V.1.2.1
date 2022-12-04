@@ -123,7 +123,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                         tbl_course_vm course = await _tutor.CheckCourseExist(conn, entity.course_code, entity.course_name);
                         if (course != null)
                         {
-                            status = await _tutor.EditCourse(conn, tran, entity.course_id, entity.course_code, entity.course_name, entity.image_path);
+                            status = await _tutor.EditCourse(conn, tran, entity.course_id, entity.course_code, entity.course_name, entity.image_path, entity.description);
                         }
                         else
                         {

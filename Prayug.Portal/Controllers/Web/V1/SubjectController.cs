@@ -182,7 +182,7 @@ namespace Prayug.Portal.Controllers.Web.V1
                             }
                             else if (Status == 2)
                             {
-                                response.Status = ResponseMessageEnum.Failure;
+                                response.Status = ResponseMessageEnum.Success;
                                 response.Message = "Subject Successfully Updated";
                             }
                             else

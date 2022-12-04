@@ -16,5 +16,6 @@ namespace Prayug.Module.Core.ViewModels.Web
         public string group_name { get; set; }
         public int course_id { get; set; }
         public string course_name { get; set; }
+        public string description { get; set; }
     }
 }

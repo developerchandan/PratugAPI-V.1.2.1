@@ -22,7 +22,7 @@ namespace Prayug.Module.Core.Concrete
             return await conn.QueryFirstOrDefaultAsync<tbl_subject_vm>(@"usp_core_check_subject_exist", param, commandType: CommandType.StoredProcedure);
         }
 
-        public async Task<int> CreateSubject(IDbConnection conn, IDbTransaction tran, int subject_id, int course_id, int group_id, string group_name, string subject_code, string subject_name)
+        public async Task<int> CreateSubject(IDbConnection conn, IDbTransaction tran, int subject_id, int course_id, int group_id, string group_name, string subject_code, string subject_name, string description)
         {
             try
             {
@@ -33,6 +33,7 @@ namespace Prayug.Module.Core.Concrete
                 param.Add("p_group_name", group_name);
                 param.Add("p_subject_code", subject_code);
                 param.Add("p_subject_name", subject_name);
+                param.Add("p_description", description);
                 return await conn.ExecuteAsync("usp_core_create_subject", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch
@@ -63,7 +64,7 @@ namespace Prayug.Module.Core.Concrete
             }
         }
 
-        public async Task<int> EditSubject(IDbConnection conn, IDbTransaction tran, int id, int subject_id, int course_id, int group_id, string group_name, string subject_code, string subject_name)
+        public async Task<int> EditSubject(IDbConnection conn, IDbTransaction tran, int id, int subject_id, int course_id, int group_id, string group_name, string subject_code, string subject_name, string description)
         {
             try
             {
@@ -74,6 +75,7 @@ namespace Prayug.Module.Core.Concrete
                 param.Add("p_group_id", group_id);
                 param.Add("p_subject_code", subject_code);
                 param.Add("p_subject_name", subject_name);
+                param.Add("p_description", description);
                 return await conn.ExecuteAsync("usp_core_edit_subject", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch

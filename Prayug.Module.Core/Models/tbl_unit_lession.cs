@@ -14,5 +14,6 @@ namespace Prayug.Module.Core.Models
         public string doc_path { get; set; }
         public int subject_id { get; set; }
         public string unit_id { get; set; }
+        public string description { get; set; }
     }
 }

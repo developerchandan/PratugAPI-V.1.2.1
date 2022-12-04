@@ -38,7 +38,7 @@ namespace Prayug.Module.Core.Concrete
             }
         }
 
-        public async Task<int> CreateLessionItem(IDbConnection conn, IDbTransaction tran, int lession_id, int subject_id, string unit_id, string item_name, string item_path)
+        public async Task<int> CreateLessionItem(IDbConnection conn, IDbTransaction tran, int lession_id, int subject_id, string unit_id, string item_name, string language_name, string item_path)
         {
             try
             {
@@ -47,6 +47,7 @@ namespace Prayug.Module.Core.Concrete
                 param.Add("p_subject_id", subject_id);
                 param.Add("p_unit_id", unit_id);
                 param.Add("p_item_name", item_name);
+                param.Add("p_language_name", language_name);
                 param.Add("p_item_path", item_path);
                 return await conn.ExecuteAsync("usp_core_create_lession_item", param, tran, commandType: CommandType.StoredProcedure);
             }
