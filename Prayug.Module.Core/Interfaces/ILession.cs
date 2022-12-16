@@ -23,5 +23,9 @@ namespace Prayug.Module.Core.Interfaces
         Task<int> SaveWorkbookQuestions(IDbConnection conn, IDbTransaction tran, workbook_question question);
         Task<int> SaveLessionWorkbook(IDbConnection conn, IDbTransaction tran, int lession_id);
         Task<int> GetItemDelete(IDbConnection conn, IDbTransaction tran, int item_id);
+        Task<(IEnumerable<mcq_item_list>, Int64)> GetLessionMcqList(IDbConnection conn, QueryParameters query);
+        Task<(IEnumerable<lession_list>, Int64)> GetLessionList(IDbConnection conn, QueryParameters query);
+        Task<(IEnumerable<lession_list>, Int64)> GetWorkbookList(IDbConnection conn, QueryParameters query);
+        Task<int> DeleteLession(IDbConnection conn, IDbTransaction tran, int lession_id);
     }
 }

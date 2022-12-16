@@ -13,7 +13,7 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
         Task<IEnumerable<CourseVm>> GetAllCourse();
         Task<IEnumerable<GroupVm>> GetAllGroup(int id);
         Task<IEnumerable<SubjectVm>> GetAllSubject(int id);
-        Task<IEnumerable<UserSemesterVm>> getUserSemester(int user_id);
+        Task<IEnumerable<UserSemesterList>> getUserSemester(int user_id);
         Task<int> SaveUserSemester(UserSemesterRequestVm entity);
         Task<IEnumerable<SubjectOverviewVm>> getSubjectOverview(int subject_id);
         Task<IEnumerable<SubjectCurriculumVm>> getSubjectCurriculum(int subject_id);

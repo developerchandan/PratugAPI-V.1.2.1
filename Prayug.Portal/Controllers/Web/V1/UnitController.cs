@@ -5,9 +5,14 @@ using Prayug.Infrastructure;
 using Prayug.Infrastructure.Enums;
 using Prayug.Infrastructure.Models;
 using Prayug.Infrastructure.ResponseFormat;
+using Prayug.Infrastructure.SmartTable;
+using Prayug.Module.Core.Interfaces;
 using Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web;
+using Prayug.Module.Core.ViewModels.Request;
+using Prayug.Module.Core.ViewModels.Response;
 using Prayug.Module.Core.ViewModels.Web;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Prayug.Portal.Controllers.Web.V1
@@ -88,6 +93,55 @@ namespace Prayug.Portal.Controllers.Web.V1
                     response.objResponse = objView;
                     response.Status = (objView != null) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
                     response.Message = "Unit";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpPost]
+        [Route("GetUnitList")]
+        public async Task<IActionResult> GetUnitList([FromBody] SmartTableParam<UnitSearchRequestVm> entity)
+        {
+            //var tt = ResponseMessageEnum.Exception.GetDescription();
+            using (ISingleListResponse<IEnumerable<UnitListVm>> response = new SingleListResponse<IEnumerable<UnitListVm>>())
+            {
+                try
+                {
+                    (IEnumerable<UnitListVm>, Int64) objResult = await _unit.GetUnitList(entity.paging.pageNo, entity.paging.pageSize, entity.paging.sortName, entity.paging.sortType, entity.Search);
+                    response.Status = ResponseMessageEnum.Success;
+                    response.Message = (objResult.Item2 > 0) ? "Success" : "No data fround";
+
+                    response.pageSize = entity.paging.pageSize;
+                    response.TotalRecord = objResult.Item2;
+                    response.objResponse = objResult.Item1;
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpDelete("DeleteUnit")]
+        public async Task<IActionResult> DeleteUnit(int subject_id, string unit_id)
+        {
+            using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
+            {
+                try
+                {
+                    int result = await _unit.DeleteUnit(subject_id, unit_id);
+                    response.objResponse = result;
+                    response.Status = (result > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Deleted";
                     return Ok(response);
                 }
                 catch (Exception ex)

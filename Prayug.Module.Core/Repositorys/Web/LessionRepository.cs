@@ -6,6 +6,7 @@ using Prayug.Infrastructure.Models;
 using Prayug.Module.Core.Interfaces;
 using Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web;
 using Prayug.Module.Core.Models;
+using Prayug.Module.Core.ViewModels.Request;
 using Prayug.Module.Core.ViewModels.Web;
 using Prayug.Module.DataBaseHelper;
 using System;
@@ -277,7 +278,7 @@ namespace Prayug.Module.Core.Repositorys.Web
             }
             return 1;
         }
-        public async Task<int> SaveWorkbookQuestions(WorkbookQuestionVm[] entity, int lession_id, TokenInfo userdetail)
+        public async Task<int> SaveWorkbookQuestions(WorkbookQuestionVm[] entity, int lession_id, int course_id, TokenInfo userdetail)
         {
             List<mcq_answer> answerList;
             using (IDbConnection conn = Connection)
@@ -297,6 +298,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                             {
                                 workbook_question question = new workbook_question();
                                 question.lession_id = lession_id;
+                                question.course_id = course_id;
                                 question.question_id = qtn.question_id;
                                 question.question = qtn.question;
                                 question.sequence = qtn.sequence;
@@ -346,6 +348,136 @@ namespace Prayug.Module.Core.Repositorys.Web
                     try
                     {
                         int obj = await _lession.GetItemDelete(conn, tran, item_id);
+                        if (obj == 1)
+                        {
+                            tran.Commit();
+                            return 1;
+
+                        }
+                        else
+                        {
+                            tran.Rollback();
+                            return 0;
+                        }
+                    }
+                    catch
+                    {
+                        throw;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
+
+        public async Task<(IEnumerable<McqQuestionListVm>, long)> GetLessionMcqList(int pageNo, int pageSize, string sortName, string sortType, LessionSearchRequestVm entity)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                QueryParameters query = new QueryParameters();
+
+                query.page_no = pageNo;
+                query.page_size = pageSize;
+                query.search_query = string.Empty;
+                query.sort_expression = sortName + " " + sortType;
+
+                if (entity != null && !string.IsNullOrEmpty(entity.lession_code))
+                {
+                    query.search_query += " AND L.lession_code= '" + entity.lession_code + "'";
+                }
+
+                conn.Open();
+                try
+                {
+                    (IEnumerable<mcq_item_list>, Int64) objSubject = await _lession.GetLessionMcqList(conn, query);
+                    return (_mapper.Map<IEnumerable<McqQuestionListVm>>(objSubject.Item1), objSubject.Item2);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
+        public async Task<(IEnumerable<LessionListVm>, Int64)> GetLessionList(int pageNo, int pageSize, string sortName, string sortType, LessionSearchRequestVm entity)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                QueryParameters query = new QueryParameters();
+
+                query.page_no = pageNo;
+                query.page_size = pageSize;
+                query.search_query = string.Empty;
+                query.sort_expression = sortName + " " + sortType;
+
+                if (entity != null && !string.IsNullOrEmpty(entity.lession_code))
+                {
+                    query.search_query += " AND L.lession_name= '" + entity.lession_code + "'";
+                }
+
+                conn.Open();
+                try
+                {
+                    (IEnumerable<lession_list>, Int64) objSubject = await _lession.GetLessionList(conn, query);
+                    return (_mapper.Map<IEnumerable<LessionListVm>>(objSubject.Item1), objSubject.Item2);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
+        public async Task<(IEnumerable<LessionListVm>, Int64)> GetWorkbookList(int pageNo, int pageSize, string sortName, string sortType, LessionSearchRequestVm entity)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                QueryParameters query = new QueryParameters();
+
+                query.page_no = pageNo;
+                query.page_size = pageSize;
+                query.search_query = string.Empty;
+                query.sort_expression = sortName + " " + sortType;
+
+                if (entity != null && !string.IsNullOrEmpty(entity.lession_code))
+                {
+                    query.search_query += " AND L.lession_name= '" + entity.lession_code + "'";
+                }
+
+                conn.Open();
+                try
+                {
+                    (IEnumerable<lession_list>, Int64) objSubject = await _lession.GetWorkbookList(conn, query);
+                    return (_mapper.Map<IEnumerable<LessionListVm>>(objSubject.Item1), objSubject.Item2);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
+        public async Task<int> DeleteLession(int lession_id)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                using (IDbTransaction tran = conn.BeginTransaction())
+                {
+                    try
+                    {
+                        int obj = await _lession.DeleteLession(conn, tran, lession_id);
                         if (obj == 1)
                         {
                             tran.Commit();

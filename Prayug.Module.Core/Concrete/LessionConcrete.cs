@@ -126,6 +126,7 @@ namespace Prayug.Module.Core.Concrete
         {
             DynamicParameters param = new DynamicParameters();
             param.Add("p_lession_id", question.lession_id);
+            param.Add("p_course_id", question.course_id);
             param.Add("p_question_id", question.question_id);
             param.Add("p_question", question.question);
             param.Add("p_sequence", question.sequence);
@@ -145,6 +146,56 @@ namespace Prayug.Module.Core.Concrete
                 DynamicParameters param = new DynamicParameters();
                 param.Add("p_item_id", item_id);
                 return await conn.ExecuteAsync(@"usp_core_delete_lession_item", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public async Task<(IEnumerable<mcq_item_list>, long)> GetLessionMcqList(IDbConnection conn, QueryParameters query)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("p_sort_expression", query.sort_expression);
+            param.Add("p_page_size", query.page_size);
+            param.Add("p_offsetCount", query.offsetCount);
+            param.Add("p_search_query", query.search_query);
+
+            var multi = await conn.QueryMultipleAsync(@"usp_core_get_mcq_item_list", param, null, commandType: CommandType.StoredProcedure);
+
+            return (await multi.ReadAsync<mcq_item_list>(), await multi.ReadSingleAsync<Int64>());
+        }
+        public async Task<(IEnumerable<lession_list>, long)> GetLessionList(IDbConnection conn, QueryParameters query)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("p_sort_expression", query.sort_expression);
+            param.Add("p_page_size", query.page_size);
+            param.Add("p_offsetCount", query.offsetCount);
+            param.Add("p_search_query", query.search_query);
+
+            var multi = await conn.QueryMultipleAsync(@"usp_core_get_lession_list", param, null, commandType: CommandType.StoredProcedure);
+
+            return (await multi.ReadAsync<lession_list>(), await multi.ReadSingleAsync<Int64>());
+        }
+        public async Task<(IEnumerable<lession_list>, long)> GetWorkbookList(IDbConnection conn, QueryParameters query)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("p_sort_expression", query.sort_expression);
+            param.Add("p_page_size", query.page_size);
+            param.Add("p_offsetCount", query.offsetCount);
+            param.Add("p_search_query", query.search_query);
+
+            var multi = await conn.QueryMultipleAsync(@"usp_core_get_workbook_list", param, null, commandType: CommandType.StoredProcedure);
+
+            return (await multi.ReadAsync<lession_list>(), await multi.ReadSingleAsync<Int64>());
+        }
+        public async Task<int> DeleteLession(IDbConnection conn, IDbTransaction tran, int lession_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_lession_id", lession_id);
+                return await conn.ExecuteAsync(@"usp_core_delete_lession_by_lession_id", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch
             {

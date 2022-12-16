@@ -132,11 +132,11 @@ namespace Prayug.Portal.Controllers.Web.V1
         [HttpGet("getUserSemester")]
         public async Task<IActionResult> getUserSemester(int user_id)
         {
-            using (ISingleModelResponse<IEnumerable<UserSemesterVm>> response = new SingleModelResponse<IEnumerable<UserSemesterVm>>())
+            using (ISingleModelResponse<IEnumerable<UserSemesterList>> response = new SingleModelResponse<IEnumerable<UserSemesterList>>())
             {
                 try
                 {
-                    IEnumerable<UserSemesterVm> objSubject = await _learnRepository.getUserSemester(user_id);
+                    IEnumerable<UserSemesterList> objSubject = await _learnRepository.getUserSemester(user_id);
                     response.objResponse = objSubject;
                     response.Status = (objSubject != null && objSubject.Count() > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
                     response.Message = "Group List";

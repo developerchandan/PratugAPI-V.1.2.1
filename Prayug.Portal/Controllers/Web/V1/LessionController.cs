@@ -6,8 +6,11 @@ using Prayug.Infrastructure.Enums;
 using Prayug.Infrastructure.Models;
 using Prayug.Infrastructure.ResponseFormat;
 using Prayug.Infrastructure.SmartTable;
+using Prayug.Module.Core.Interfaces;
 using Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web;
+using Prayug.Module.Core.Models;
 using Prayug.Module.Core.Repositorys.Web;
+using Prayug.Module.Core.ViewModels.Request;
 using Prayug.Module.Core.ViewModels.Web;
 using System;
 using System.Collections.Generic;
@@ -241,7 +244,7 @@ namespace Prayug.Portal.Controllers.Web.V1
             }
         }
         [HttpPost("SaveWorkbookQuestions")]
-        public async Task<IActionResult> SaveWorkbookQuestions([FromBody] WorkbookQuestionVm[] entity, int lession_id)
+        public async Task<IActionResult> SaveWorkbookQuestions([FromBody] WorkbookQuestionVm[] entity, int lession_id, int course_id)
         {
             using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
             {
@@ -252,7 +255,7 @@ namespace Prayug.Portal.Controllers.Web.V1
                         TokenInfo userdetail = TokenDetail.GetTokenInfo(HttpContext.User);
                         try
                         {
-                            int objResult = await _lession.SaveWorkbookQuestions(entity, lession_id, userdetail);
+                            int objResult = await _lession.SaveWorkbookQuestions(entity, lession_id, course_id, userdetail);
                             response.Status = ResponseMessageEnum.Success;
                             response.Message = (objResult != 0) ? "Success" : "No data fround";
                             response.objResponse = 1;
@@ -297,5 +300,109 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [HttpPost]
+        [Route("GetLessionMcqList")]
+        public async Task<IActionResult> GetLessionMcqList([FromBody] SmartTableParam<LessionSearchRequestVm> entity)
+        {
+            //var tt = ResponseMessageEnum.Exception.GetDescription();
+            using (ISingleListResponse<IEnumerable<McqQuestionListVm>> response = new SingleListResponse<IEnumerable<McqQuestionListVm>>())
+            {
+                try
+                {
+                    (IEnumerable<McqQuestionListVm>, Int64) objResult = await _lession.GetLessionMcqList(entity.paging.pageNo, entity.paging.pageSize, entity.paging.sortName, entity.paging.sortType, entity.Search);
+                    response.Status = ResponseMessageEnum.Success;
+                    response.Message = (objResult.Item2 > 0) ? "Success" : "No data fround";
+
+                    response.pageSize = entity.paging.pageSize;
+                    response.TotalRecord = objResult.Item2;
+                    response.objResponse = objResult.Item1;
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpPost]
+        [Route("GetLessionList")]
+        public async Task<IActionResult> GetLessionList([FromBody] SmartTableParam<LessionSearchRequestVm> entity)
+        {
+            //var tt = ResponseMessageEnum.Exception.GetDescription();
+            using (ISingleListResponse<IEnumerable<LessionListVm>> response = new SingleListResponse<IEnumerable<LessionListVm>>())
+            {
+                try
+                {
+                    (IEnumerable<LessionListVm>, Int64) objResult = await _lession.GetLessionList(entity.paging.pageNo, entity.paging.pageSize, entity.paging.sortName, entity.paging.sortType, entity.Search);
+                    response.Status = ResponseMessageEnum.Success;
+                    response.Message = (objResult.Item2 > 0) ? "Success" : "No data fround";
+
+                    response.pageSize = entity.paging.pageSize;
+                    response.TotalRecord = objResult.Item2;
+                    response.objResponse = objResult.Item1;
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpDelete("DeleteLession")]
+        public async Task<IActionResult> DeleteLession(int lession_id)
+        {
+            using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
+            {
+                try
+                {
+                    int result = await _lession.DeleteLession(lession_id);
+                    response.objResponse = result;
+                    response.Status = (result > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Deleted";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [HttpPost]
+        [Route("GetWorkbookList")]
+        public async Task<IActionResult> GetWorkbookList([FromBody] SmartTableParam<LessionSearchRequestVm> entity)
+        {
+            //var tt = ResponseMessageEnum.Exception.GetDescription();
+            using (ISingleListResponse<IEnumerable<LessionListVm>> response = new SingleListResponse<IEnumerable<LessionListVm>>())
+            {
+                try
+                {
+                    (IEnumerable<LessionListVm>, Int64) objResult = await _lession.GetWorkbookList(entity.paging.pageNo, entity.paging.pageSize, entity.paging.sortName, entity.paging.sortType, entity.Search);
+                    response.Status = ResponseMessageEnum.Success;
+                    response.Message = (objResult.Item2 > 0) ? "Success" : "No data fround";
+
+                    response.pageSize = entity.paging.pageSize;
+                    response.TotalRecord = objResult.Item2;
+                    response.objResponse = objResult.Item1;
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+
     }
 }

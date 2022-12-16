@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DocumentFormat.OpenXml.Office2010.ExcelAc;
 using Microsoft.Extensions.Configuration;
 using Prayug.Infrastructure.Extensions;
 using Prayug.Module.Core.Interfaces;
@@ -123,7 +124,7 @@ namespace Prayug.Module.Core.Repositorys.Web
                 }
             }
         }
-        public async Task<IEnumerable<UserSemesterVm>> getUserSemester(int user_id)
+        public async Task<IEnumerable<UserSemesterList>> getUserSemester(int user_id)
         {
             using (IDbConnection conn = Connection)
             {
@@ -131,8 +132,33 @@ namespace Prayug.Module.Core.Repositorys.Web
                 conn.Open();
                 try
                 {
+                    List<UserSemesterList> semList = new List<UserSemesterList>();
                     IEnumerable<tbl_user_semester> objGroup = await _learning.getUserSemester(conn, user_id);
-                    return _mapper.Map<IEnumerable<UserSemesterVm>>(objGroup);
+                    //var semester_list = objGroup.GroupBy(sem => sem.semester_name).Select(x => x.First()).ToList();
+                    var semesterList = objGroup.DistinctBy(sem => new { sem.user_id, sem.semester_name, sem.course_id }).ToList();
+                    semesterList.ForEach(sem =>
+                    {
+                        UserSemesterList userSem = new UserSemesterList();
+                        userSem.semester_name = sem.semester_name;
+                        userSem.user_id = sem.user_id;
+                        userSem.course_id = sem.course_id;
+                        userSem.course_name = sem.course_name;
+                        List<SemesterSubjectList> subList = new List<SemesterSubjectList>();
+                        var subjectList = objGroup.Where(x => x.semester_name == sem.semester_name && x.course_id == sem.course_id).ToList();
+                        subjectList.ForEach(x =>
+                        {
+                            SemesterSubjectList subObj = new SemesterSubjectList();
+                            subObj.course_id = x.course_id;
+                            subObj.course_name = x.course_name;
+                            subObj.subject_id = x.subject_id;
+                            subObj.subject_name = x.subject_name;
+                            subObj.is_permission = x.is_permission;
+                            subList.Add(subObj);
+                        });
+                        userSem.subject_list=subList;
+                        semList.Add(userSem);
+                    });
+                    return _mapper.Map<IEnumerable<UserSemesterList>>(semList);
                 }
                 catch
                 {

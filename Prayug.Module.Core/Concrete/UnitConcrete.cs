@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using Prayug.Module.Core.Interfaces;
 using Prayug.Module.Core.Models;
+using Prayug.Module.DataBaseHelper;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -53,5 +54,33 @@ namespace Prayug.Module.Core.Concrete
                 throw;
             }
         }
+
+        public async Task<(IEnumerable<unit_list>, long)> GetUnitList(IDbConnection conn, QueryParameters query)
+        {
+            DynamicParameters param = new DynamicParameters();
+            param.Add("p_sort_expression", query.sort_expression);
+            param.Add("p_page_size", query.page_size);
+            param.Add("p_offsetCount", query.offsetCount);
+            param.Add("p_search_query", query.search_query);
+
+            var multi = await conn.QueryMultipleAsync(@"usp_core_get_unit_list", param, null, commandType: CommandType.StoredProcedure);
+
+            return (await multi.ReadAsync<unit_list>(), await multi.ReadSingleAsync<Int64>());
+        }
+        public async Task<int> DeleteUnit(IDbConnection conn, IDbTransaction tran, int subject_id, string unit_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_subject_id", subject_id);
+                param.Add("p_unit_id", unit_id);
+                return await conn.ExecuteAsync(@"usp_core_delete_unit_by_subject_id", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
     }
 }

@@ -40,6 +40,9 @@ namespace Prayug.Module.Core.MappingProfile
             CreateMap<course_skill, CourseSkillVm>();
             CreateMap<all_user_list, UserListVm>();
             CreateMap<tbl_common_subject, CommonSubjectVm>();
+            CreateMap<mcq_item_list, McqQuestionListVm>();
+            CreateMap<unit_list, UnitListVm>();
+            CreateMap<lession_list, LessionListVm>();
         }
     }
 }
