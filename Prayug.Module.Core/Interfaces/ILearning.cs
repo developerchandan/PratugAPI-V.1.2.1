@@ -29,6 +29,8 @@ namespace Prayug.Module.Core.Interfaces
         Task<IEnumerable<tbl_course_vm>> GetAllCourseByCategory(IDbConnection conn, string category_code);
         Task<IEnumerable<workbook_question>> GetWorkbookByLession(IDbConnection conn, int lession_id); 
         Task<int> SaveUserWorkbook(IDbConnection conn, IDbTransaction tran, int user_id, int lession_id, string unit_id, string questions);
+        Task<int> CreateUserProfile(IDbConnection conn, IDbTransaction tran, user_profile_vm profile);
+        Task<user_profile_vm> GetUserProfile(IDbConnection conn, int user_id);
 
     }
 }

@@ -92,5 +92,45 @@ namespace Prayug.Module.Core.Repositorys.Web
                 }
             }
         }
+        public async Task<IEnumerable<CategoryCourses>> GetCategoryCourses()
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                try
+                {
+                    IEnumerable<category_courses> obj = await _category.GetCategoryCourses(conn);
+                    return _mapper.Map<IEnumerable<CategoryCourses>>(obj);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
+        public async Task<IEnumerable<CategoryCourses>> GetUserTextSearch(string user_search)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                try
+                {
+                    IEnumerable<category_courses> obj = await _category.GetUserTextSearch(conn, user_search);
+                    return _mapper.Map<IEnumerable<CategoryCourses>>(obj);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
     }
 }

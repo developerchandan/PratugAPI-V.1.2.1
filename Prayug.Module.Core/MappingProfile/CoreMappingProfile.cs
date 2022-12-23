@@ -43,6 +43,8 @@ namespace Prayug.Module.Core.MappingProfile
             CreateMap<mcq_item_list, McqQuestionListVm>();
             CreateMap<unit_list, UnitListVm>();
             CreateMap<lession_list, LessionListVm>();
+            CreateMap<user_profile_vm, UserProfileVm>();
+            CreateMap<category_courses, CategoryCourses>();
         }
     }
 }

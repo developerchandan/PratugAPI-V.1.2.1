@@ -101,5 +101,51 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [AllowAnonymous]
+        [HttpGet("GetCategoryCourses")]
+        public async Task<IActionResult> GetCategoryCourses()
+        {
+            using (ISingleModelResponse<IEnumerable<CategoryCourses>> response = new SingleModelResponse<IEnumerable<CategoryCourses>>())
+            {
+                try
+                {
+                    IEnumerable<CategoryCourses> obj = await _category.GetCategoryCourses();
+                    response.objResponse = obj;
+                    response.Status = (obj != null && obj.Count() > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Category List";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        [AllowAnonymous]
+        [HttpGet("GetUserTextSearch")]
+        public async Task<IActionResult> GetUserTextSearch(string user_search)
+        {
+            using (ISingleModelResponse<IEnumerable<CategoryCourses>> response = new SingleModelResponse<IEnumerable<CategoryCourses>>())
+            {
+                try
+                {
+                    IEnumerable<CategoryCourses> obj = await _category.GetUserTextSearch(user_search);
+                    response.objResponse = obj;
+                    response.Status = (obj != null && obj.Count() > 0) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "Category or Course List";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
     }
 }

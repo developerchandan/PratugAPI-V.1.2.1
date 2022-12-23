@@ -23,8 +23,10 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
         Task<QuizDetailVm> GetQuizByLessionId(int lession_id);
         Task<LessionItemsVm> GetTopicDetail(int item_id);
         Task<UserVm> GetUserDetail(int user_id);
+        Task<UserProfileVm> GetUserProfile(int user_id);
         Task<IEnumerable<CourseVm>> GetAllCourseByCategory(string category_code);
         Task<WorkbookDetailVm> GetWorkbookByLession(int lession_id);
         Task<int> SaveUserWorkbook(UserWorkbook entity);
+        Task<int> CreateUserProfile(UserProfileVm entity);
     }
 }

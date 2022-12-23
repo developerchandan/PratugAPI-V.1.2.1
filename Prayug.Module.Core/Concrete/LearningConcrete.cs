@@ -220,6 +220,19 @@ namespace Prayug.Module.Core.Concrete
                 throw;
             }
         }
+        public async Task<user_profile_vm> GetUserProfile(IDbConnection conn, int user_id)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_id", user_id);
+                return await conn.QueryFirstOrDefaultAsync<user_profile_vm>(@"usp_core_get_user_profile_detail_by_userid", param, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
         public async Task<IEnumerable<tbl_course_vm>> GetAllCourseByCategory(IDbConnection conn, string category_code)
         {
@@ -259,6 +272,29 @@ namespace Prayug.Module.Core.Concrete
                 param.Add("p_unit_id", unit_id);
                 param.Add("p_questions", questions);
                 return await conn.ExecuteAsync(@"usp_core_save_user_workbook", param, tran, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task<int> CreateUserProfile(IDbConnection conn, IDbTransaction tran, user_profile_vm profile)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_id", profile.user_id);
+                param.Add("p_first_name", profile.first_name);
+                param.Add("p_last_name", profile.last_name);
+                param.Add("p_email", profile.email);
+                param.Add("p_headline", profile.headline);
+                param.Add("p_mobile", profile.mobile);
+                param.Add("p_collage", profile.collage);
+                param.Add("p_university", profile.university);
+                param.Add("p_facebook", profile.facebook);
+                param.Add("p_twitter", profile.twitter);
+                param.Add("p_youtube", profile.youtube);
+                return await conn.ExecuteAsync(@"usp_core_save_update_user_profile", param, tran, commandType: CommandType.StoredProcedure);
             }
             catch
             {

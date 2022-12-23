@@ -472,5 +472,71 @@ namespace Prayug.Module.Core.Repositorys.Web
                 }
             };
         }
+        public async Task<int> CreateUserProfile(UserProfileVm entity)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                using (IDbTransaction tran = conn.BeginTransaction())
+                {
+                    //QueryParameters query = new QueryParameters();
+                    try
+                    {
+                        user_profile_vm profile = new user_profile_vm();
+                        profile.user_id = entity.user_id;
+                        profile.first_name = entity.first_name;
+                        profile.last_name = entity.last_name;
+                        profile.headline = entity.headline;
+                        profile.email = entity.email;
+                        profile.mobile = entity.mobile;
+                        profile.collage = entity.collage;
+                        profile.university = entity.university;
+                        profile.facebook = entity.facebook;
+                        profile.twitter = entity.twitter;
+                        profile.youtube = entity.youtube;
+
+                        int result = await _learning.CreateUserProfile(conn, tran, profile);
+                        if (result > 0)
+                        {
+                            tran.Commit();
+                            return result;
+                        }
+                        else
+                        {
+                            tran.Rollback();
+                            return 0;
+                        }
+                    }
+                    catch
+                    {
+                        throw;
+                    }
+                    finally
+                    {
+                        conn.Close();
+                    }
+                }
+            }
+        }
+        public async Task<UserProfileVm> GetUserProfile(int user_id)
+        {
+            using (IDbConnection conn = Connection)
+            {
+                conn.Open();
+                try
+                {
+                    user_profile_vm obj = await _learning.GetUserProfile(conn, user_id);
+                    return _mapper.Map<UserProfileVm>(obj);
+                }
+                catch
+                {
+                    throw;
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            }
+        }
     }
 }

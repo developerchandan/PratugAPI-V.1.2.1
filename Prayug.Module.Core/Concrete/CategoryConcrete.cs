@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Google.Protobuf.WellKnownTypes;
 using Prayug.Module.Core.Interfaces;
 using Prayug.Module.Core.Models;
 using System;
@@ -45,6 +46,32 @@ namespace Prayug.Module.Core.Concrete
                 //DynamicParameters param = new DynamicParameters();
 
                 return await conn.QueryAsync<tbl_category_vm>(@"usp_core_get_category_all_list", null, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task<IEnumerable<category_courses>> GetCategoryCourses(IDbConnection conn)
+        {
+            try
+            {
+                //DynamicParameters param = new DynamicParameters();
+
+                return await conn.QueryAsync<category_courses>(@"usp_core_get_category_course_count", null, commandType: CommandType.StoredProcedure);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public async Task<IEnumerable<category_courses>> GetUserTextSearch(IDbConnection conn, string user_search)
+        {
+            try
+            {
+                DynamicParameters param = new DynamicParameters();
+                param.Add("p_user_search", user_search);
+                return await conn.QueryAsync<category_courses>(@"usp_core_get_user_search_category_course", param, commandType: CommandType.StoredProcedure);
             }
             catch
             {

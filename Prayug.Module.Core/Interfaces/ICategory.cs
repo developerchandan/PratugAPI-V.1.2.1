@@ -13,5 +13,7 @@ namespace Prayug.Module.Core.Interfaces
         Task<tbl_category_vm> CheckCategoryExist(IDbConnection conn, string category_code, string category_name);
         Task<int> CreateCategory(IDbConnection conn, IDbTransaction tran, string category_code, string category_name, int course_type, string duration);
         Task<IEnumerable<tbl_category_vm>> GetCategoryList(IDbConnection conn);
+        Task<IEnumerable<category_courses>> GetCategoryCourses(IDbConnection conn);
+        Task<IEnumerable<category_courses>> GetUserTextSearch(IDbConnection conn, string user_search);
     }
 }

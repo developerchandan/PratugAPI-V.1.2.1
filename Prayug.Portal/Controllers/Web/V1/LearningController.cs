@@ -411,5 +411,60 @@ namespace Prayug.Portal.Controllers.Web.V1
                 }
             }
         }
+        [HttpPost("CreateUserProfile")]
+        public async Task<IActionResult> CreateUserProfile(UserProfileVm entity)
+        {
+            using (ISingleModelResponse<int> response = new SingleModelResponse<int>())
+            {
+                try
+                {
+                    int result = await _learnRepository.CreateUserProfile(entity);
+
+
+                    if (result > 0)
+                    {
+                        response.Status = ResponseMessageEnum.Success;
+                        response.Message = "profile detail save";
+                        response.objResponse = 1;
+                        return Ok(response);
+                    }
+                    else
+                    {
+                        response.Status = ResponseMessageEnum.Failure;
+                        response.Message = "not save";
+                        return Ok(response);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = ex.Message;
+                    return StatusCode(500, response);
+                }
+            }
+        }
+        [HttpGet("GetUserProfile")]
+        public async Task<IActionResult> GetUserProfile(int user_id)
+        {
+            using (ISingleModelResponse<UserProfileVm> response = new SingleModelResponse<UserProfileVm>())
+            {
+                try
+                {
+                    UserProfileVm objView = await _learnRepository.GetUserProfile(user_id);
+                    response.objResponse = objView;
+                    response.Status = (objView != null) ? ResponseMessageEnum.Success : ResponseMessageEnum.Failure;
+                    response.Message = "item";
+                    return Ok(response);
+                }
+                catch (Exception ex)
+                {
+                    response.Status = ResponseMessageEnum.Exception;
+                    response.Message = "Exception";
+                    response.Message = ex.Message;
+                    return Ok(response);
+                }
+            }
+        }
+        
     }
 }

@@ -12,5 +12,7 @@ namespace Prayug.Module.Core.Interfaces.RepositoryInterfaces.Web
     {
         Task<int> CreateCategory(CategoryVm entity, TokenInfo token); 
         Task<IEnumerable<CategoryVm>> GetCategoryList();
+        Task<IEnumerable<CategoryCourses>> GetCategoryCourses();
+        Task<IEnumerable<CategoryCourses>> GetUserTextSearch(string user_search);
     }
 }
